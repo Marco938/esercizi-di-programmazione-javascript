@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var Cats = 44;
+var Cfer = 6;                           //cats for each row
+var Nor = Math.ceil(Cats/Cfer);        //number of row
+console.log(Nor);
+var Cwr = Cfer*Nor;                      //Cats with rest
+var Rest = Cwr-Cats;
+console.log(Rest);
