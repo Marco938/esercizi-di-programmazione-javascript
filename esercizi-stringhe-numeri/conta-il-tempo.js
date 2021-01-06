@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Is = 12560;                    //itial seconds
+var R1 = Is%3600;
+var H = (Is-R1)/3600;
+var Fs = R1%60;                   //final seconds
+var M = (R1-Fs)/60;
+console.log(H,M,Fs);

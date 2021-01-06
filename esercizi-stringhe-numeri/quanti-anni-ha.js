@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Cy = 2021;
+var By = 2005;
+var A = 2021-2005;
+var Yn = 100-A;
+console.log(A,Yn);

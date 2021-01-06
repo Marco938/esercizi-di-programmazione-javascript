@@ -9,3 +9,18 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = 10;
+var b = -2;
+var c = 31 ;
+var d = 22 ;
+var e = 15;
+var f = -6;
+var g = 7;
+var z = a,b,c,d,e,f,g
+if (c>z-c) {console.log('è il giorno più caldo della settimana');
+
+}
+if (f<z-f) {console.log('è il giorno più freddo della settimana');
+
+};
